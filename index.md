@@ -5,7 +5,7 @@ title: Home
 
 <!--Favicon-->
 <link rel="shortcut icon" href="favico.ico" type="image/vnd.microsoft.icon">
-<h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="./index.html">Root</a>&#xA0;&#xA0;&#xA0; <a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;<a href="/posts/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/posts/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
+<h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;<a href="/posts/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/posts/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
 
 * * *
 ### Whoami:~#
@@ -26,8 +26,7 @@ Hello there! My name is Terry but I go by the moniker LadyCaldlow on socials (I'
 - [[Feb 11 2023]] [MD2PDF](https://markuched13.github.io/posts/thm/md2pdf.html) `SSRF`
 - [[Feb 14 2023]] [DearQA](https://markuched13.github.io/posts/thm/dearqa.html) `Ret2Win (BOF)` -->
 - [[June 23 2023]] [Source](https://sec-fortress.github.io/posts/thm/posts/source.html) `Webmin, Metasploit`
-- [[June 24 2023]] [Agent Sudo](https://sec-fortress.github.io/posts/thm/posts/agentsudo.html) `BruteForce, Redirections, Steganography`
-- [[Aug. 10 2023]] [Simple CTF](https://sec-fortress.github.io/posts/thm/posts/simplectf.html) `Unauthenticated SQLI, Encoding` 
+- [[
 
 
 

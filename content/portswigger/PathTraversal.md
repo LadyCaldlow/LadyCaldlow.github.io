@@ -1,4 +1,4 @@
-# Server-Side Vulnerabilities-Path Traversal Lab
+# Path Traversal Lab
 The objective of this lab is to perform a path traversal such that you are able to retrieve the contents of the `/etc/passwd` file.
 Before attempting the lab, you should have a good understanding of what path traversal is.
 A path traversal vulnerability is one whereby an attcker can access arbitrary files on a webserver that they should not have access to. This can be achieved by effectively using two dots (..) and a forward slash (/) in Linux-based servers. You can use the same in Windows-based servers, you can use the same or a backward slash (\) in place of the forward slash. 

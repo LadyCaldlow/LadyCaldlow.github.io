@@ -1,5 +1,5 @@
 # Unprotected Admin Functionality Lab
-The objective in this lab is to find the unprotected admin panel and delete the user `carlos`. Let's get started.
+The objective of this lab is to find the unprotected admin panel and delete the user `carlos`. Let's get started.
 The lab gives you access to a shopping site as seen below. 
 
 ![image](https://github.com/LadyCaldlow/LadyCaldlow.github.io/assets/162819648/201fec8c-646f-432c-a052-0dbd0945ba9b)

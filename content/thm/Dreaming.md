@@ -28,7 +28,7 @@ Let's see what you may find in `/app`
 You can click on `admin` and try to login. 
 ![image](https://github.com/LadyCaldlow/LadyCaldlow.github.io/assets/162819648/65208f88-774e-4121-8149-41a68c81d2c0)
 
-Before rushing to bruteforce, you could try common passwords to see if they would work. Surprisingly, **password** works. 
+Before rushing to bruteforce using a wordlist, you could try common passwords to see if they would work. Surprisingly, **password** works. 
 
 ## Initial Foothold
 

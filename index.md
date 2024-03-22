@@ -49,6 +49,7 @@ Hello there! My name is Terry but I go by the moniker LadyCaldlow on socials (I'
 - [User Role Controlled By Request Parameter](https://LadyCaldlow.github.io/content/portswigger/UserRoleReqPar.html)
 - [User ID Controlled By Request Parameter-GUIDs](https://LadyCaldlow.github.io/content/portswigger/UnpredictableUID.html)
 - [User ID Controlled By Request Parameter-Password Disclosure](https://LadyCaldlow.github.io/content/portswigger/UIDPassDisc.html)
+- [Username Enumeration Via Different Responses](https://LadyCaldlow.github.io/content/portswigger/UnameEnum.html)
 
 
 

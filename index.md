@@ -11,7 +11,7 @@ href="/content/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;<a                
 href="/content/ptd/index.html">picoCTF</a>&#xA0;&#xA0;&#xA0;<a href="/content/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/content/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
 
 * * *
-### Whoami:~#
+### About 
 * * *
 
 Hello there! My name is Terry but I go by the moniker LadyCaldlow on socials (I'm a huge fan of The Prestige if you can't already tell). My background is in Mechanical Engineering. While I love working with machines, I'm too paranoid about them. I decided to put this paranoia to good use in Cybersecurity and here I am! I'd like to take you along with me through my journey in Cybersecurity. This will consist of CTF writeups, articles on various aspects of cybersecurity and python/bash projects related to cybersecurity. Buckle up! 

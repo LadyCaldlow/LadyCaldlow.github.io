@@ -18,7 +18,7 @@ Hello there! My name is Terry but I go by the moniker LadyCaldlow on socials (I'
 
 
 * * *
-### **TryHackMe Writeups:~#**
+### **TryHackMe Writeups**
 * * *
 <!-- - [[Jan 21 2023]] [TakeOver](https://markuched13.github.io/posts/thm/takeover.html) `Subdomain Enumeration`
 - [[Jan 28 2023]] [ReversingELF](https://markuched13.github.io/posts/thm/reversingelf.html) `Reverse Engineering`
@@ -33,7 +33,7 @@ Hello there! My name is Terry but I go by the moniker LadyCaldlow on socials (I'
 
 
 * * *
-### **PortSwigger Labs:~#**
+### **PortSwigger Labs**
 * * *
 <!-- - [[Jan 18 2023]] [ScriptKiddie](https://markuched13.github.io/posts/htb/scriptkiddie.html) `Msfvenom, Command Injection, Sudo`
 - [[Jan 18 2023]] [Lame](https://markuched13.github.io/posts/htb/lame.html) `Metasploit, Command Injection`
@@ -54,7 +54,7 @@ Hello there! My name is Terry but I go by the moniker LadyCaldlow on socials (I'
 
 
 * * *
-### **picoCTF Writeups:~#**
+### **picoCTF Writeups**
 * * *
 <!-- - [[Jan 21 2023]] [TakeOver](https://markuched13.github.io/posts/thm/takeover.html) `Subdomain Enumeration`
 - [[Jan 28 2023]] [ReversingELF](https://markuched13.github.io/posts/thm/reversingelf.html) `Reverse Engineering`

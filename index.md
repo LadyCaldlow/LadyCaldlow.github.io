@@ -8,7 +8,7 @@ title: Home
 <h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a 
 href="./index.html">Root</a>&#xA0;&#xA0;&#xA0;<a 
 href="/content/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;<a                                                           href="/content/portswigger/index.html">PortSwigger</a>&#xA0;&#xA0;&#xA0;<a 
-href="/content/ptd/index.html">PicoCTF</a>&#xA0;&#xA0;&#xA0;<a href="/content/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/content/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
+href="/content/ptd/index.html">picoCTF</a>&#xA0;&#xA0;&#xA0;<a href="/content/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/content/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
 
 * * *
 ### Whoami:~#
@@ -29,7 +29,7 @@ Hello there! My name is Terry but I go by the moniker LadyCaldlow on socials (I'
 - [[Feb 11 2023]] [MD2PDF](https://markuched13.github.io/posts/thm/md2pdf.html) `SSRF`
 - [[Feb 14 2023]] [DearQA](https://markuched13.github.io/posts/thm/dearqa.html) `Ret2Win (BOF)`-->
 - [Dreaming](https://LadyCaldlow.github.io/content/thm/Dreaming.html)
-- [Hijack](https://LadyCaldlow.github.io/content/thm/Hijack.html)
+- [Hijack](https://LadyCaldlow.github.io/content/thm/Hijack.html) 
 
 
 * * *
